@@ -56,7 +56,7 @@ public class Player : MonoBehaviour
             if (jumpCooldown <= 0)
             {
                 canJump = true;
-                jumpCooldown = 0.5f;  // Réinitialiser le cooldown
+                jumpCooldown = 0.5f;  
             }
         }
     }

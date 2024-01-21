@@ -27,7 +27,6 @@ public class UiManager : MonoBehaviour
 
     public void QuitButtonHandler()
     {
-        // Appelé lorsqu'on appuie sur le bouton "Quitter"
         Debug.Log("Quitting game...");
         Application.Quit();
     }

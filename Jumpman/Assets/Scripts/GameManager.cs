@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     }
 
     public float currentScore = 0f;
-    public float speed = 1f; // Add the speed variable here
+    public float speed = 1f; 
 
     public bool isPlaying = false;
 
@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
     {
         if (isPlaying)
         {
-            UpdateSpeed(); // Call the method to update speed
+            UpdateSpeed(); 
             currentScore += Time.deltaTime;
         }
 
@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
 
     private void UpdateSpeed()
     {
-        speed = 1f + currentScore * 0.1f; // Update the speed based on the current score
+        speed = 1f + currentScore * 0.1f; 
     }
 
     public void StartGame()
